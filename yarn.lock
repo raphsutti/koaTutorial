@@ -132,6 +132,13 @@
   dependencies:
     "@types/koa" "*"
 
+"@types/koa-router@7.4.1":
+  version "7.4.1"
+  resolved "https://registry.yarnpkg.com/@types/koa-router/-/koa-router-7.4.1.tgz#3702a4cabe4558cc4eec70d5574acc04beecff7c"
+  integrity sha512-Hg78TXz78QYfEgdq3nTeRmQFEwJKZljsXb/DhtexmyrpRDRnl59oMglh9uPj3/WgKor0woANrYTnxA8gaWGK2A==
+  dependencies:
+    "@types/koa" "*"
+
 "@types/koa2-cors@2.0.1":
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/@types/koa2-cors/-/koa2-cors-2.0.1.tgz#76a635cadc9c10e9d29a209fa2db28529dfc765a"
