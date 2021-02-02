@@ -3,6 +3,7 @@ import bodyParser from "koa-bodyparser";
 import cors from "koa2-cors";
 import logger from "koa-logger";
 import Router from "koa-router";
+import health from "./routes/healthcheck";
 
 const app = new Koa();
 
@@ -11,6 +12,7 @@ const PORT = process.env.PORT || 7654;
 app.use(bodyParser());
 app.use(cors({ origin: "*" })); // allow any origin
 app.use(logger());
+app.use(health.routes());
 
 const router = new Router();
 
